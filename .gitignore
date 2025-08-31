@@ -1,0 +1,17 @@
+cat > .gitignore <<EOF
+# build artifacts
+/build/
+*.o
+math_program
+
+# python / pytest
+__pycache__/
+.pytest_cache/
+
+# editors / envs
+.vscode/
+.idea/
+.venv/
+env/
+venv/
+EOF
