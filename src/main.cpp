@@ -1,6 +1,6 @@
 #include <iostream>
-#include "MathUtils.hpp"
-#include "AdvancedMath.hpp"
+#include "MathUtils.h"
+#include "AdvancedMath.h"
 
 int main() {
     int a = 3;
